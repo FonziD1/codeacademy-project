@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles.css" >
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -8,9 +9,10 @@
 <body>
     <div>
         <div id="messageWindow"></div>
-        <div id="historyWindow"></div>
-        <button type="button">Generate</button>
-        <button type="button">Rest history</button>
+        <div id="historyWindow"><ul></ul></div>
+        <button type="button" id="generateBtn">Generate</button>
+        <button type="button" id="resetBtn">Reset history</button>
     </div>
+    <script src="randomSentance.js"></script>
 </body>
 </html>
